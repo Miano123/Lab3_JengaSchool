@@ -4,5 +4,5 @@
 def main():
     str = "This sentence has 27 chars."
     for c in str:
-        print(c.split("()"), end="")
+        print(f"({c})", end="")
 main()
